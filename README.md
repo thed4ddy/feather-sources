@@ -4,8 +4,9 @@
                                                                                                                                            
   ## Plezy — Modern Plex Client                                                                                                            
                   
-  <a href="feather://source/https://raw.githubusercontent.com/thed4ddy/feather-sources/main/apps.json">                                    
-    <img src="https://img.shields.io/badge/Add_to_Feather-6C63FF?style=for-the-badge&logo=apple&logoColor=white" alt="Add to Feather" />
+  <a href="https://intradeus.github.io/http-protocol-redirector?r=feather://source/https://raw.githubusercontent.com/thed4ddy/feather-sourc
+  es/main/apps.json">                                                                                                                      
+    <img src="https://img.shields.io/badge/Add_to_Feather-6C63FF?style=for-the-badge&logo=apple&logoColor=white" alt="Add to Feather" />   
   </a>                                                                                                                                     
                                                                                                                                            
   <a href="https://intradeus.github.io/http-protocol-redirector?r=altstore://source?url=https://raw.githubusercontent.com/thed4ddy/feather-
