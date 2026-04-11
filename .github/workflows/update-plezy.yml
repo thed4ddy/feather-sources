@@ -1,0 +1,69 @@
+name: Update Plezy Source
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for new Plezy release
+        id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          CURRENT=$(jq -r '.apps[0].versions[0].version' apps.json)
+          echo "Current version: $CURRENT"
+
+          LATEST=$(gh release view --repo edde746/plezy --json tagName --jq '.tagName')
+          echo "Latest version: $LATEST"
+
+          if [ "$CURRENT" = "$LATEST" ]; then
+            echo "Already up to date"
+            echo "updated=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "New version found: $LATEST"
+          echo "updated=true" >> "$GITHUB_OUTPUT"
+          echo "version=$LATEST" >> "$GITHUB_OUTPUT"
+
+      - name: Update apps.json
+        if: steps.check.outputs.updated == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.check.outputs.version }}
+        run: |
+          RELEASE_JSON=$(gh release view --repo edde746/plezy "$VERSION" --json publishedAt,assets,body)
+          DATE=$(echo "$RELEASE_JSON" | jq -r '.publishedAt')
+          SIZE=$(echo "$RELEASE_JSON" | jq -r '[.assets[] | select(.name == "plezy-ios.ipa")][0].size')
+          DOWNLOAD_URL="https://github.com/edde746/plezy/releases/download/${VERSION}/plezy-ios.ipa"
+          NOTES=$(echo "$RELEASE_JSON" | jq -r '.body' | head -20)
+
+          NEW_ENTRY=$(jq -n \
+            --arg ver "$VERSION" \
+            --arg date "$DATE" \
+            --argjson size "$SIZE" \
+            --arg url "$DOWNLOAD_URL" \
+            --arg notes "$NOTES" \
+            '{version: $ver, date: $date, size: $size, downloadURL: $url, localizedDescription: $notes}')
+
+          jq --argjson entry "$NEW_ENTRY" '.apps[0].versions = [$entry] + .apps[0].versions[:4]' apps.json > apps_tmp.json
+          mv apps_tmp.json apps.json
+
+          echo "Updated apps.json to version $VERSION"
+
+      - name: Commit and push
+        if: steps.check.outputs.updated == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add apps.json
+          git commit -m "Update Plezy to ${{ steps.check.outputs.version }}"
+          git push
