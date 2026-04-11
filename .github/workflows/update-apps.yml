@@ -1,0 +1,39 @@
+name: Update Apps
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check and update all apps
+        id: update
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          chmod +x scripts/update-source.sh
+          output=$(bash scripts/update-source.sh)
+          echo "$output"
+          # Extract the updated flag from the last line
+          if echo "$output" | grep -q "updated=true"; then
+            echo "updated=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "updated=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push
+        if: steps.update.outputs.updated == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add apps.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update apps source"
+          git push

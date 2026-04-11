@@ -20,7 +20,43 @@ https://raw.githubusercontent.com/thed4ddy/feather-sources/main/apps.json
 
 ## How it works
 
-A [GitHub Actions workflow](.github/workflows/update-plezy.yml) runs every 6 hours, checks for new releases from upstream repos, and updates `apps.json` with the latest IPA download link, version, and changelog.
+A [GitHub Actions workflow](.github/workflows/update-apps.yml) runs every 6 hours, iterates over every app config in [`apps/`](apps/), checks for new GitHub releases, and updates `apps.json` with the latest IPA download links, versions, and changelogs.
+
+## Adding a new app
+
+1. Create a JSON config in `apps/` (e.g. `apps/myapp.json`):
+
+```json
+{
+  "name": "My App",
+  "bundleIdentifier": "com.example.myapp",
+  "developerName": "developer",
+  "subtitle": "Short description",
+  "localizedDescription": "Longer description of the app.",
+  "iconURL": "https://example.com/icon.png",
+  "tintColor": "#FF6600",
+  "source": {
+    "repo": "owner/repo",
+    "asset": "myapp.ipa"
+  }
+}
+```
+
+2. Push to `main` — the next workflow run will pick it up automatically and add the app to `apps.json`.
+
+**Config fields:**
+
+| Field | Description |
+|-------|-------------|
+| `name` | Display name in Feather/AltStore |
+| `bundleIdentifier` | iOS bundle ID |
+| `developerName` | Developer or org name |
+| `subtitle` | One-liner shown in the source |
+| `localizedDescription` | Full description |
+| `iconURL` | URL to the app icon |
+| `tintColor` | Hex color for the source UI |
+| `source.repo` | GitHub `owner/repo` to watch for releases |
+| `source.asset` | Filename of the IPA asset in the release |
 
 ## Disclaimer
 

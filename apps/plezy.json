@@ -1,0 +1,13 @@
+{
+  "name": "Plezy",
+  "bundleIdentifier": "com.edde746.plezy",
+  "developerName": "edde746",
+  "subtitle": "Modern cross-platform Plex client",
+  "localizedDescription": "A modern Plex client built with Flutter for native performance and a clean interface. Stream your media library with a beautiful, responsive UI.",
+  "iconURL": "https://raw.githubusercontent.com/edde746/plezy/main/assets/plezy.png",
+  "tintColor": "#6C63FF",
+  "source": {
+    "repo": "edde746/plezy",
+    "asset": "plezy-ios.ipa"
+  }
+}

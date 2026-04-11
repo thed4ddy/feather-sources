@@ -2,8 +2,8 @@
   "name": "Feather Sources",
   "subtitle": "Unofficial Feather sources for sideloading apps.",
   "description": "Curated AltStore/Feather source repository.",
-  "iconURL": "https://raw.githubusercontent.com/edde746/plezy/main/assets/plezy.png",
-  "website": "https://plezy.app",
+  "iconURL": "",
+  "website": "https://github.com/thed4ddy/feather-sources",
   "tintColor": "#6C63FF",
   "featuredApps": [],
   "apps": [
