@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "1.32.0",
+          "date": "2026-04-13T06:34:57Z",
+          "size": 43634811,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/1.32.0/plezy-ios.ipa",
+          "localizedDescription": "## Added\r\n\r\n- Download all playlist items\r\n- Download options picker for series/seasons\r\n- Clickable cast members to browse actor filmography\r\n- Square art and logo editing in metadata editor\r\n- Sub-ass-override setting\r\n- Snackbar on playback speed change\r\n- Auto-hide performance overlay with controls\r\n\r\n## Fixed\r\n\r\n- Hide spoilers in watch next thumbnails\r\n- Skip back navigation when overlay route is on top\r\n- Detail screen section alignment\r\n- File info bitrate units, multi-track display, TV scrolling\r\n- Use configured skip setting for dpad/timeline seeking\r\n- Noisy audio pause on Android TV\r\n- Always show track selection button\r\n- Android TV PiP lifecycle regressions\r"
+        },
+        {
           "version": "1.31.3",
           "date": "2026-04-07T04:27:57Z",
           "size": 43620010,
