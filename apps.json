@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "1.35.2",
+          "date": "2026-04-30T14:50:02Z",
+          "size": 43695370,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/1.35.2/plezy-ios.ipa",
+          "localizedDescription": "## Fixed\r\n\r\n- Non-ASS subtitles on Android 36+ not rendering\r\n\r\n**Full Changelog**: https://github.com/edde746/plezy/compare/1.35.1...1.35.2"
+        },
+        {
           "version": "1.35.1",
           "date": "2026-04-28T03:41:10Z",
           "size": 43695227,
@@ -43,13 +50,6 @@
           "size": 43720090,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/1.34.1/plezy-ios.ipa",
           "localizedDescription": "## Added\r\n\r\n- Trakt integration\r\n- Sync rules for collections, playlists, and downloads\r\n- Folder view thumbnails and rich metadata\r\n- Force TV mode setting\r\n- Bold/italic subtitle toggles\r\n- ExoPlayer audio and subtitle delay support\r\n- Bandwidth limit modal when stream returns 500\r\n- Timeline thumbnail preview on dpad key-repeat\r\n\r\n## Fixed\r\n\r\n- Force rediscover on manual reconnect\r\n- Reset completion latch on stream recovery\r\n- Video playback tile description\r\n- Live TV DVR seek via keyboard/remote\r\n- Re-select audio on renderer capabilities change\r\n- Guard player back pop with canPop\r\n- Snackbar placement\r"
-        },
-        {
-          "version": "1.33.1",
-          "date": "2026-04-15T10:20:39Z",
-          "size": 43578965,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/1.33.1/plezy-ios.ipa",
-          "localizedDescription": "## Added\r\n\r\n- Watch together buffering indicators, recent rooms, plex usernames, action toasts, shorter codes\r\n- Encrypted LAN discovery for remote pairing (replaces QR)\r\n- Circular dpad on remote screen\r\n- Mouse back button navigation\r\n- Subtitle sync slider range extended to ±60s\r\n- Auto-remove watched downloads with server watched threshold\r\n\r\n## Fixed\r\n\r\n- Subtitle background not rendering\r\n- Artwork directory crash on orientation change\r\n- Back navigation on screens with no app bar actions\r\n- Alpha jump bar and download tree empty list access\r\n- Action bar focus node bounds safety\r\n- Auto-start remote server after home data loads\r\n- Min 2x DPR for TV image transcoding\r\n- Download cleanup, retry circuit breaker, SAF resume\r\n- Server errors (500) treated as permanent failure with error in UI\r"
         }
       ]
     }
