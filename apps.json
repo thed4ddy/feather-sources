@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "2.0.0",
+          "date": "2026-05-11T05:30:13Z",
+          "size": 40825926,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.0.0/plezy-ios.ipa",
+          "localizedDescription": "## Added\r\n\r\n- Jellyfin support\r\n- Live TV DVR and recordings\r\n- iOS external display playback\r\n- tvOS support\r\n\r\n## Fixed\r\n\r\n- ExoPlayer ASS subtitle delay\r\n- iOS PiP subtitle issues\r\n- Plex startup, home hub retries, and endpoint failover\r\n- Sync rule removal/navigation\r\n- UHD/4K media labels\r\n- Various focus issues\r\n\r\n## Improved\r\n\r\n- Playback and player UI performance\r\n- Discord Rich Presence posters\r"
+        },
+        {
           "version": "1.35.2",
           "date": "2026-04-30T14:50:02Z",
           "size": 43695370,
@@ -43,13 +50,6 @@
           "size": 43723113,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/1.34.2/plezy-ios.ipa",
           "localizedDescription": "## Fixed\r\n\r\n- ExoPlayer external subtitle attach\r\n- ExoPlayer libass crash\r\n\r\n**Full Changelog**: https://github.com/edde746/plezy/compare/1.34.1...1.34.2\r"
-        },
-        {
-          "version": "1.34.1",
-          "date": "2026-04-20T06:57:12Z",
-          "size": 43720090,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/1.34.1/plezy-ios.ipa",
-          "localizedDescription": "## Added\r\n\r\n- Trakt integration\r\n- Sync rules for collections, playlists, and downloads\r\n- Folder view thumbnails and rich metadata\r\n- Force TV mode setting\r\n- Bold/italic subtitle toggles\r\n- ExoPlayer audio and subtitle delay support\r\n- Bandwidth limit modal when stream returns 500\r\n- Timeline thumbnail preview on dpad key-repeat\r\n\r\n## Fixed\r\n\r\n- Force rediscover on manual reconnect\r\n- Reset completion latch on stream recovery\r\n- Video playback tile description\r\n- Live TV DVR seek via keyboard/remote\r\n- Re-select audio on renderer capabilities change\r\n- Guard player back pop with canPop\r\n- Snackbar placement\r"
         }
       ]
     }
