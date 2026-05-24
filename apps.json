@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "2.2.0",
+          "date": "2026-05-24T06:17:21Z",
+          "size": 41889020,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.2.0/plezy-ios.ipa",
+          "localizedDescription": "## Added\r\n\r\n- Android Dolby Vision conversion setting for ExoPlayer\r\n- Remembered manual companion remote host addresses\r\n- Pointer cursors for clickable controls\r\n- Additional 0.25x playback speed steps\r\n- Jellyfin external audio playback\r\n\r\n## Fixed\r\n\r\n- Android Dolby Vision conversion and reload handling\r\n- Android TrueHD passthrough and tunneling\r\n- Android frame-rate startup position\r\n- Android fullscreen guards\r\n- Plex no-burn subtitle transcodes\r\n- Plex MKV attachment copying during transcode\r\n- Jellyfin playlist pagination\r\n- Jellyfin collection query performance\r\n- Missing or corrupt download artwork\r\n- Download cancellation races\r"
+        },
+        {
           "version": "2.1.0",
           "date": "2026-05-17T12:15:11Z",
           "size": 41046187,
@@ -43,13 +50,6 @@
           "size": 43695227,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/1.35.1/plezy-ios.ipa",
           "localizedDescription": "## Fixed\r\n\r\n* Live TV non-cloud EPG\r\n* Android: mpv crash\r\n\r\n**Full Changelog**: https://github.com/edde746/plezy/compare/1.35.0..1.35.1"
-        },
-        {
-          "version": "1.35.0",
-          "date": "2026-04-27T12:08:32Z",
-          "size": 43694632,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/1.35.0/plezy-ios.ipa",
-          "localizedDescription": "## Added\r\n\r\n- Transcoding\r\n- Server grouping and hidden-library browsing\r\n- MAL/AniList/Simkl progress sync\r\n- Per-tracker library whitelist/blacklist\r\n- Match/unmatch metadata\r\n- Settings export/import\r\n- Global fullscreen toggle (F11 + sidebar)\r\n- \"Start in fullscreen\" option on Windows/Linux\r\n- Episode next/prev hotkeys\r\n- Toggle episode number on cards\r\n- Toggle auto update check on startup\r\n- ExoPlayer box-fit modes (letterbox/cover/stretch)\r\n- ArtCNN shader presets\r\n- Display switch delay on Android\r\n\r\n## Fixed\r\n\r\n- Suppress Steam Input duplicate actions on Windows\r"
         }
       ]
     }
