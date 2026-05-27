@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "2.3.0",
+          "date": "2026-05-26T21:34:13Z",
+          "size": 41911522,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.3.0/plezy-ios.ipa",
+          "localizedDescription": "## Added\r\n\r\n- Jellyfin unwatched library filter\r\n- Jellyfin folder browsing and playback\r\n\r\n## Fixed\r\n\r\n- Android TrueHD passthrough detection\r\n- Android display mode matching\r\n- Android MPEG-TS seeking\r\n- Android WebVTT subtitle positioning\r\n- iOS PiP subtitles\r\n- TV media detail rail focus, sizing, and light-theme text colors\r\n- TV alpha jump bar visibility\r\n- TV episode backdrop selection\r\n- TV detail reveal behavior without input\r\n- TV virtual keyboard focus and text entry\r\n- TV root menu navigation handling\r\n- Duplicate Continue Watching entries\r\n- Duplicate native download tasks\r"
+        },
+        {
           "version": "2.2.0",
           "date": "2026-05-24T06:17:21Z",
           "size": 41889020,
@@ -43,13 +50,6 @@
           "size": 43695370,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/1.35.2/plezy-ios.ipa",
           "localizedDescription": "## Fixed\r\n\r\n- Non-ASS subtitles on Android 36+ not rendering\r\n\r\n**Full Changelog**: https://github.com/edde746/plezy/compare/1.35.1...1.35.2"
-        },
-        {
-          "version": "1.35.1",
-          "date": "2026-04-28T03:41:10Z",
-          "size": 43695227,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/1.35.1/plezy-ios.ipa",
-          "localizedDescription": "## Fixed\r\n\r\n* Live TV non-cloud EPG\r\n* Android: mpv crash\r\n\r\n**Full Changelog**: https://github.com/edde746/plezy/compare/1.35.0..1.35.1"
         }
       ]
     }
