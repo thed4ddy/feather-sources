@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "2.4.1",
+          "date": "2026-06-01T01:12:45Z",
+          "size": 42074463,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.4.1/plezy-ios.ipa",
+          "localizedDescription": "## Fixed\r\n\r\n- macOS playback crashes caused by LuaJIT under hardened runtime\r\n- Android playback crashes on devices without HDR display mode API support\r\n\r\n**Full Changelog**: https://github.com/edde746/plezy/compare/2.4.0...2.4.1\r"
+        },
+        {
           "version": "2.3.0",
           "date": "2026-05-26T21:34:13Z",
           "size": 41911522,
@@ -43,13 +50,6 @@
           "size": 40825926,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/2.0.0/plezy-ios.ipa",
           "localizedDescription": "## Added\r\n\r\n- Jellyfin support\r\n- Live TV DVR and recordings\r\n- iOS external display playback\r\n- tvOS support\r\n\r\n## Fixed\r\n\r\n- ExoPlayer ASS subtitle delay\r\n- iOS PiP subtitle issues\r\n- Plex startup, home hub retries, and endpoint failover\r\n- Sync rule removal/navigation\r\n- UHD/4K media labels\r\n- Various focus issues\r\n\r\n## Improved\r\n\r\n- Playback and player UI performance\r\n- Discord Rich Presence posters\r"
-        },
-        {
-          "version": "1.35.2",
-          "date": "2026-04-30T14:50:02Z",
-          "size": 43695370,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/1.35.2/plezy-ios.ipa",
-          "localizedDescription": "## Fixed\r\n\r\n- Non-ASS subtitles on Android 36+ not rendering\r\n\r\n**Full Changelog**: https://github.com/edde746/plezy/compare/1.35.1...1.35.2"
         }
       ]
     }
