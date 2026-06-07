@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "2.5.0",
+          "date": "2026-06-07T12:45:29Z",
+          "size": 42197116,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.5.0/plezy-ios.ipa",
+          "localizedDescription": "## Added\r\n\r\n- Jellyfin extras support\r\n- Jellyfin metadata editing\r\n- Video and audio quality labels\r\n- tvOS Top Shelf support\r\n- New app menus\r\n- Mobile settings shortcut in the home menu\r\n- Mobile library browse options sheet\r\n- A startup section setting\r\n- Faster loading for large show detail pages\r\n\r\n## Improved\r\n\r\n- More consistent back navigation\r\n- Better TV and dpad focus behavior\r\n- Better access to app bar actions on TV\r\n- More UI text is localized\r\n\r\n## Fixed\r"
+        },
+        {
           "version": "2.4.1",
           "date": "2026-06-01T01:12:45Z",
           "size": 42074463,
@@ -43,13 +50,6 @@
           "size": 41046187,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/2.1.0/plezy-ios.ipa",
           "localizedDescription": "## Added\r\n\r\n- Tracker rating sheet\r\n- Episode-level anime watch state sync\r\n- Live TV guide grouping by source\r\n- Player screenshot shortcut\r\n- Jellyfin actor media browsing\r\n- Additional Jellyfin library sort options\r\n\r\n## Fixed\r\n\r\n- Apple playback issues with Dolby Vision, HDR subtitles, MPVKit teardown, subtitle cropping, and video presentation\r\n- Player startup, frame-rate/display matching, PiP, and lifecycle cleanup\r\n- Plex and Jellyfin library filters, sorts, grouping, collections, home hubs, and large library loading\r\n- Live TV guide loading, recording indicators, and Jellyfin Live TV direct streaming\r\n- Tracker anime completion totals, scoped progress sync, Plex library context, and Trakt sync behavior\r\n- Search ranking and server indicators\r\n- Watch Together host resume, companion remote server selection, duplicate PIN dialogs, downloads cleanup, and desktop database migration\r\n\r\n## Improved\r"
-        },
-        {
-          "version": "2.0.0",
-          "date": "2026-05-11T05:30:13Z",
-          "size": 40825926,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.0.0/plezy-ios.ipa",
-          "localizedDescription": "## Added\r\n\r\n- Jellyfin support\r\n- Live TV DVR and recordings\r\n- iOS external display playback\r\n- tvOS support\r\n\r\n## Fixed\r\n\r\n- ExoPlayer ASS subtitle delay\r\n- iOS PiP subtitle issues\r\n- Plex startup, home hub retries, and endpoint failover\r\n- Sync rule removal/navigation\r\n- UHD/4K media labels\r\n- Various focus issues\r\n\r\n## Improved\r\n\r\n- Playback and player UI performance\r\n- Discord Rich Presence posters\r"
         }
       ]
     }
