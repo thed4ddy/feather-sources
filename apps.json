@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "2.6.0",
+          "date": "2026-06-10T19:45:14Z",
+          "size": 42210973,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.6.0/plezy-ios.ipa",
+          "localizedDescription": "## Added\r\n\r\n- Continue Watching behavior setting\r\n- Plex Plays/User Rating sorts\r\n\r\n## Improved\r\n\r\n- Watch state consistency\r\n- Home hub previews\r\n- Jellyfin recency ordering\r\n- TV keyboard search focus\r\n- Episode switching performance\r\n\r\n## Fixed\r\n\r\n- Mobile chapters & queue\r\n- Rare Apple Dolby Vision decoding issue\r\n- Recently Added scoping\r\n- Server tasks via remote\r\n- Next unwatched selection\r"
+        },
+        {
           "version": "2.5.0",
           "date": "2026-06-07T12:45:29Z",
           "size": 42197116,
@@ -43,13 +50,6 @@
           "size": 41889020,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/2.2.0/plezy-ios.ipa",
           "localizedDescription": "## Added\r\n\r\n- Android Dolby Vision conversion setting for ExoPlayer\r\n- Remembered manual companion remote host addresses\r\n- Pointer cursors for clickable controls\r\n- Additional 0.25x playback speed steps\r\n- Jellyfin external audio playback\r\n\r\n## Fixed\r\n\r\n- Android Dolby Vision conversion and reload handling\r\n- Android TrueHD passthrough and tunneling\r\n- Android frame-rate startup position\r\n- Android fullscreen guards\r\n- Plex no-burn subtitle transcodes\r\n- Plex MKV attachment copying during transcode\r\n- Jellyfin playlist pagination\r\n- Jellyfin collection query performance\r\n- Missing or corrupt download artwork\r\n- Download cancellation races\r"
-        },
-        {
-          "version": "2.1.0",
-          "date": "2026-05-17T12:15:11Z",
-          "size": 41046187,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.1.0/plezy-ios.ipa",
-          "localizedDescription": "## Added\r\n\r\n- Tracker rating sheet\r\n- Episode-level anime watch state sync\r\n- Live TV guide grouping by source\r\n- Player screenshot shortcut\r\n- Jellyfin actor media browsing\r\n- Additional Jellyfin library sort options\r\n\r\n## Fixed\r\n\r\n- Apple playback issues with Dolby Vision, HDR subtitles, MPVKit teardown, subtitle cropping, and video presentation\r\n- Player startup, frame-rate/display matching, PiP, and lifecycle cleanup\r\n- Plex and Jellyfin library filters, sorts, grouping, collections, home hubs, and large library loading\r\n- Live TV guide loading, recording indicators, and Jellyfin Live TV direct streaming\r\n- Tracker anime completion totals, scoped progress sync, Plex library context, and Trakt sync behavior\r\n- Search ranking and server indicators\r\n- Watch Together host resume, companion remote server selection, duplicate PIN dialogs, downloads cleanup, and desktop database migration\r\n\r\n## Improved\r"
         }
       ]
     }
