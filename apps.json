@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "2.7.1",
+          "date": "2026-06-14T16:57:32Z",
+          "size": 42276948,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.7.1/plezy-ios.ipa",
+          "localizedDescription": "## Fixed\r\n\r\n* Timeline focus sink\r\n* Jellyfin Specials order\r\n\r\n**Full Changelog**: https://github.com/edde746/plezy/compare/2.7.0..."
+        },
+        {
           "version": "2.6.0",
           "date": "2026-06-10T19:45:14Z",
           "size": 42210973,
@@ -43,13 +50,6 @@
           "size": 41911522,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/2.3.0/plezy-ios.ipa",
           "localizedDescription": "## Added\r\n\r\n- Jellyfin unwatched library filter\r\n- Jellyfin folder browsing and playback\r\n\r\n## Fixed\r\n\r\n- Android TrueHD passthrough detection\r\n- Android display mode matching\r\n- Android MPEG-TS seeking\r\n- Android WebVTT subtitle positioning\r\n- iOS PiP subtitles\r\n- TV media detail rail focus, sizing, and light-theme text colors\r\n- TV alpha jump bar visibility\r\n- TV episode backdrop selection\r\n- TV detail reveal behavior without input\r\n- TV virtual keyboard focus and text entry\r\n- TV root menu navigation handling\r\n- Duplicate Continue Watching entries\r\n- Duplicate native download tasks\r"
-        },
-        {
-          "version": "2.2.0",
-          "date": "2026-05-24T06:17:21Z",
-          "size": 41889020,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.2.0/plezy-ios.ipa",
-          "localizedDescription": "## Added\r\n\r\n- Android Dolby Vision conversion setting for ExoPlayer\r\n- Remembered manual companion remote host addresses\r\n- Pointer cursors for clickable controls\r\n- Additional 0.25x playback speed steps\r\n- Jellyfin external audio playback\r\n\r\n## Fixed\r\n\r\n- Android Dolby Vision conversion and reload handling\r\n- Android TrueHD passthrough and tunneling\r\n- Android frame-rate startup position\r\n- Android fullscreen guards\r\n- Plex no-burn subtitle transcodes\r\n- Plex MKV attachment copying during transcode\r\n- Jellyfin playlist pagination\r\n- Jellyfin collection query performance\r\n- Missing or corrupt download artwork\r\n- Download cancellation races\r"
         }
       ]
     }
