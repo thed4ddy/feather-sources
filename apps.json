@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "2.8.0",
+          "date": "2026-06-28T08:07:22Z",
+          "size": 42292954,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.8.0/plezy-ios.ipa",
+          "localizedDescription": "## Added\r\n\r\n- Media detail genres\r\n- Episode action setting\r\n- Specials download toggle\r\n- Plex TV Date Added sort\r\n- Jellyfin episode added sort\r\n\r\n## Improved\r\n\r\n- Android playback timing\r\n- Android subtitle rendering\r\n- Artwork memory usage\r\n- Episode row layout\r\n- Multi-server labels\r\n- Profile session handling\r\n- Tracker session handling\r\n\r\n## Fixed\r\n\r"
+        },
+        {
           "version": "2.7.1",
           "date": "2026-06-14T16:57:32Z",
           "size": 42276948,
@@ -43,13 +50,6 @@
           "size": 42074463,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/2.4.1/plezy-ios.ipa",
           "localizedDescription": "## Fixed\r\n\r\n- macOS playback crashes caused by LuaJIT under hardened runtime\r\n- Android playback crashes on devices without HDR display mode API support\r\n\r\n**Full Changelog**: https://github.com/edde746/plezy/compare/2.4.0...2.4.1\r"
-        },
-        {
-          "version": "2.3.0",
-          "date": "2026-05-26T21:34:13Z",
-          "size": 41911522,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.3.0/plezy-ios.ipa",
-          "localizedDescription": "## Added\r\n\r\n- Jellyfin unwatched library filter\r\n- Jellyfin folder browsing and playback\r\n\r\n## Fixed\r\n\r\n- Android TrueHD passthrough detection\r\n- Android display mode matching\r\n- Android MPEG-TS seeking\r\n- Android WebVTT subtitle positioning\r\n- iOS PiP subtitles\r\n- TV media detail rail focus, sizing, and light-theme text colors\r\n- TV alpha jump bar visibility\r\n- TV episode backdrop selection\r\n- TV detail reveal behavior without input\r\n- TV virtual keyboard focus and text entry\r\n- TV root menu navigation handling\r\n- Duplicate Continue Watching entries\r\n- Duplicate native download tasks\r"
         }
       ]
     }
