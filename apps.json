@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "2.9.0",
+          "date": "2026-07-13T00:01:27Z",
+          "size": 45195919,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.9.0/plezy-ios.ipa",
+          "localizedDescription": "## Added\r\n\r\n- Plex and Jellyfin music browsing\r\n- Gapless music playback, queue, lyrics, and sleep timer\r\n- Android background music playback\r\n- Music downloads and quality setting\r\n- Explore tab with Trakt and MyAnimeList catalogs\r\n- Seerr sign-in and media requests\r\n- Jellyfin favorites filter and actions\r\n- Stereo downmix with center channel boost\r\n- Desktop Force TV mode\r\n- Live TV recording library selection\r\n- Playlist picker search\r\n\r\n## Improved\r\n\r\n- Live TV guide, recordings, and details design\r\n- Settings, sign-in, and profile design\r\n- Music queue and volume controls\r\n- Library filter visibility and management\r"
+        },
+        {
           "version": "2.8.0",
           "date": "2026-06-28T08:07:22Z",
           "size": 42292954,
@@ -43,13 +50,6 @@
           "size": 42197116,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/2.5.0/plezy-ios.ipa",
           "localizedDescription": "## Added\r\n\r\n- Jellyfin extras support\r\n- Jellyfin metadata editing\r\n- Video and audio quality labels\r\n- tvOS Top Shelf support\r\n- New app menus\r\n- Mobile settings shortcut in the home menu\r\n- Mobile library browse options sheet\r\n- A startup section setting\r\n- Faster loading for large show detail pages\r\n\r\n## Improved\r\n\r\n- More consistent back navigation\r\n- Better TV and dpad focus behavior\r\n- Better access to app bar actions on TV\r\n- More UI text is localized\r\n\r\n## Fixed\r"
-        },
-        {
-          "version": "2.4.1",
-          "date": "2026-06-01T01:12:45Z",
-          "size": 42074463,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.4.1/plezy-ios.ipa",
-          "localizedDescription": "## Fixed\r\n\r\n- macOS playback crashes caused by LuaJIT under hardened runtime\r\n- Android playback crashes on devices without HDR display mode API support\r\n\r\n**Full Changelog**: https://github.com/edde746/plezy/compare/2.4.0...2.4.1\r"
         }
       ]
     }
