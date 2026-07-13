@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "2.9.1",
+          "date": "2026-07-13T15:44:01Z",
+          "size": 45196451,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.9.1/plezy-ios.ipa",
+          "localizedDescription": "## Fixed\r\n\r\n- Jellyfin home screen offline loops\r\n- Playback crashes on older Android and Fire OS devices\r\n- Back navigation on media and catalog details\r\n- Music volume persistence and mini-player interactions\r\n- D-pad volume and sync sliders\r\n- Keyboard shortcut recording\r\n- Live TV guide long-press actions and recording sheets\r\n- Watch Together leave and end-session actions\r\n\r\n**Full Changelog**: https://github.com/edde746/plezy/compare/2.9.0...2.9.1\r\n\n\n**Full Changelog**: https://github.com/edde746/plezy/compare/2.9.0...2.9.1"
+        },
+        {
           "version": "2.9.0",
           "date": "2026-07-13T00:01:27Z",
           "size": 45195919,
@@ -43,13 +50,6 @@
           "size": 42210973,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/2.6.0/plezy-ios.ipa",
           "localizedDescription": "## Added\r\n\r\n- Continue Watching behavior setting\r\n- Plex Plays/User Rating sorts\r\n\r\n## Improved\r\n\r\n- Watch state consistency\r\n- Home hub previews\r\n- Jellyfin recency ordering\r\n- TV keyboard search focus\r\n- Episode switching performance\r\n\r\n## Fixed\r\n\r\n- Mobile chapters & queue\r\n- Rare Apple Dolby Vision decoding issue\r\n- Recently Added scoping\r\n- Server tasks via remote\r\n- Next unwatched selection\r"
-        },
-        {
-          "version": "2.5.0",
-          "date": "2026-06-07T12:45:29Z",
-          "size": 42197116,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.5.0/plezy-ios.ipa",
-          "localizedDescription": "## Added\r\n\r\n- Jellyfin extras support\r\n- Jellyfin metadata editing\r\n- Video and audio quality labels\r\n- tvOS Top Shelf support\r\n- New app menus\r\n- Mobile settings shortcut in the home menu\r\n- Mobile library browse options sheet\r\n- A startup section setting\r\n- Faster loading for large show detail pages\r\n\r\n## Improved\r\n\r\n- More consistent back navigation\r\n- Better TV and dpad focus behavior\r\n- Better access to app bar actions on TV\r\n- More UI text is localized\r\n\r\n## Fixed\r"
         }
       ]
     }
