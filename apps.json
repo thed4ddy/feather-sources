@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "2.14.0",
+          "date": "2026-08-16T16:38:01Z",
+          "size": 48362842,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.14.0/plezy-ios.ipa",
+          "localizedDescription": "## New features\r\n\r\n- Audio and subtitle sync sliders cover ±10 seconds in 50 ms steps\r\n- The bundled ffmpeg enables the loudnorm filter for volume normalization\r\n\r\n## Playback\r\n\r\n- Plex video transcodes use fMP4 HLS, so HEVC presets stop corrupting\r\n- Plex transcodes seek in-band instead of pre-warming at the resume offset\r\n- Same-day Specials no longer hijack up next\r\n- Episode advances that fail on a transient server blip are retried\r\n- Playback no longer fails when a preference write is refused\r\n- TrueHD offers its MAT carrier on Android 10–12 audio routes\r\n- Timeline heartbeats stop once a Plex server terminates the session\r\n- ExoPlayer track labels say AAC instead of mp4a.40.2\r\n- Emby scrub previews load from the server's BIF index\r\n- iOS and tvOS keep HDR and Dolby Vision when the video is zoomed\r\n- tvOS schedules frames with more presentation lead\r\n\r\n## Subtitles\r"
+        },
+        {
           "version": "2.13.0",
           "date": "2026-08-10T08:31:27Z",
           "size": 47201426,
@@ -43,13 +50,6 @@
           "size": 46468354,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/2.10.0/plezy-ios.ipa",
           "localizedDescription": "## Highlights\r\n\r\n- **Explore gains AniList, Simkl and Plex catalogs**, alongside the existing Trakt, MyAnimeList and Seerr sources\r\n- **Six new languages** — Turkish, Hungarian, Traditional Chinese, Azerbaijani, Kazakh and Uzbek — with every existing translation brought up to date with the current English text\r\n- **Playback speed now goes up to 8x**, up from 3x\r\n- **Transcoded Plex video behaves like a local file**: seeking no longer reloads the stream, the timeline scrubs as you drag, and switching subtitles is instant\r\n- **Most single-line Apple TV text fields now use the native tvOS keyboard** instead of the in-app overlay keyboard\r\n\r\n## New features\r\n\r\n- Playback speeds up to 8x (#1545)\r\n- Explore: AniList, Simkl and Plex catalogs, each appearing once the matching account is connected\r\n- Jellyfin: backdrops on detail, Explore and TV spotlight screens cycle through all the artwork on the server\r\n- Detail: the director is listed alongside studio and rating\r\n- Detail: episode cards show the file size\r\n- TV: an Appearance setting shows spotlight artwork in the top-right corner instead of filling the screen, off by default (#1628)\r\n- Downloads: removing a synced playlist or collection can also delete the downloads it made, keeping anything another sync or profile still uses (#1656)\r\n- Downloads: Android warns on the Downloads screen when battery or notification settings would stop downloads in the background, with a button straight to the right system screen\r\n- Six new languages: Turkish, Hungarian, Traditional Chinese, Azerbaijani, Kazakh and Uzbek\r\n- Traditional Chinese shows dates and durations in Traditional characters, Plex sends its text back in Traditional Chinese, and a device set to Traditional Chinese picks it automatically\r"
-        },
-        {
-          "version": "2.9.1",
-          "date": "2026-07-13T15:44:01Z",
-          "size": 45196451,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.9.1/plezy-ios.ipa",
-          "localizedDescription": "## Fixed\r\n\r\n- Jellyfin home screen offline loops\r\n- Playback crashes on older Android and Fire OS devices\r\n- Back navigation on media and catalog details\r\n- Music volume persistence and mini-player interactions\r\n- D-pad volume and sync sliders\r\n- Keyboard shortcut recording\r\n- Live TV guide long-press actions and recording sheets\r\n- Watch Together leave and end-session actions\r\n\r\n**Full Changelog**: https://github.com/edde746/plezy/compare/2.9.0...2.9.1\r\n\n\n**Full Changelog**: https://github.com/edde746/plezy/compare/2.9.0...2.9.1"
         }
       ]
     }
