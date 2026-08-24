@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "2.17.0",
+          "date": "2026-08-24T05:28:09Z",
+          "size": 48487264,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.17.0/plezy-ios.ipa",
+          "localizedDescription": "## New features\n\n- Live TV recording on Jellyfin and Emby\n- Match Content Resolution on Android TV\n- FFmpeg demuxes every container on Android\n- Anchored grouping, filter, and sort menus on desktop\n- Cmd+, / Ctrl+, opens settings\n- Full details sheet from the TV detail hero\n\n## Performance\n\n- Cold start reaches the first screen ~500 ms sooner\n- D-pad browse on TV drops far fewer frames\n- Player chrome no longer rebuilds on every tick\n- Artwork nothing displays is no longer decoded\n\n## Playback\n\n- Downloaded subtitles apply instead of failing\n- Quoted mpv.conf values take effect"
+        },
+        {
           "version": "2.16.0",
           "date": "2026-08-19T22:26:13Z",
           "size": 48388913,
@@ -43,13 +50,6 @@
           "size": 47201426,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/2.13.0/plezy-ios.ipa",
           "localizedDescription": "## New features\r\n\r\n- Emby joins Plex and Jellyfin as a first-class backend: same onboarding, browsing, search, watch state and downloads\r\n- TrueHD audio is packed into a MAT/IEC 61937 carrier and bitstreams to the receiver\r\n- Android Automotive: the app reads the vehicle's driver-distraction state, scales the whole interface (adjustable in Appearance), keeps music playing while parked but silences it while driving, and never starts video in a moving car\r\n- Every tracker sign-in dialog (Trakt, Simkl, MDBList, MAL, AniList) shows a QR code and a copyable link, and fits on TV screens\r\n- MDBList syncs watched history, scrobbles and ratings\r\n- Linux renders video on a native Wayland plane, which carries HDR (PQ/HLG on BT.2020) instead of the 8-bit sRGB texture path\r\n- Android TV refreshes the Watch Next row in the background without the app open\r\n- tvOS Top Shelf fetches Continue Watching live and shows poster art\r\n- The player and TV home show a clock in the system's 12/24-hour format\r\n- Library context menus gain a watchlist toggle\r\n- Appearance gains a toggle to hide the Explore tab\r\n- Text subtitles can be anchored to the bottom of the screen, in the black bars under widescreen video\r\n- Android downloads can follow the app onto adoptable storage\r\n- Playback Buffer offers Auto, Large and Extra Large read-ahead tiers instead of a fixed 50 seconds\r\n\r\n## Playback\r\n\r\n- Plex transcodes open at the resume position instead of buffering forever\r"
-        },
-        {
-          "version": "2.12.1",
-          "date": "2026-08-05T03:56:58Z",
-          "size": 46911042,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.12.1/plezy-ios.ipa",
-          "localizedDescription": "## New features\r\n\r\n- All ratings the server sent are shown: IMDb, Rotten Tomatoes and TMDB side by side\r\n- Local profiles borrow the picture of the connection they were linked to first\r\n- File Info now works on music tracks and other file-backed items\r\n- A two-finger tap toggles playback without raising the chrome\r\n\r\n## Playback\r\n\r\n- A picked subtitle language carries across episodes again, including untagged tracks\r\n- Subtitles turned off, hidden or cycled stay off in the next episode\r\n- Jellyfin's subtitle mode of None is no longer overridden by default or forced tracks\r\n- Plex sidecar subtitles work again on Android\r\n- Auto buffer size on Android is sized from the device heap, fixing passthrough black screens\r\n- A server that cannot read the media file now says so, instead of a redacted URL\r\n- Live TV keeps retrying when a stream 404s\r\n- Jellyfin streams the negotiated version on items with alternate versions\r\n- The TV player opens with its chrome down\r\n- Backspace and Home edit text again in player sheets, such as subtitle search\r\n- Both player spinners are labelled for screen readers\r"
         }
       ]
     }
