@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "2.17.1",
+          "date": "2026-08-24T23:18:06Z",
+          "size": 48613958,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.17.1/plezy-ios.ipa",
+          "localizedDescription": "## Playback\n\n- Large MKVs on Android resume and seek immediately\n- Dolby Vision plays through the Dolby Vision decoder on Android\n- Opus, Vorbis, and FLAC tracks play instead of stalling on Android\n\n## Downloads\n\n- An unreachable downloaded file streams from the server on Android\n\n## Profiles & startup\n\n- The profile prompt no longer interrupts a companion-remote session\n\n## tvOS\n\n- Siri Remote navigation matches native tvOS pacing\n- A single flick moves exactly one item\n- Rail and hub-row scrolling glides instead of snapping"
+        },
+        {
           "version": "2.17.0",
           "date": "2026-08-24T05:28:09Z",
           "size": 48487264,
@@ -43,13 +50,6 @@
           "size": 48362842,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/2.14.0/plezy-ios.ipa",
           "localizedDescription": "## New features\r\n\r\n- Audio and subtitle sync sliders cover ±10 seconds in 50 ms steps\r\n- The bundled ffmpeg enables the loudnorm filter for volume normalization\r\n\r\n## Playback\r\n\r\n- Plex video transcodes use fMP4 HLS, so HEVC presets stop corrupting\r\n- Plex transcodes seek in-band instead of pre-warming at the resume offset\r\n- Same-day Specials no longer hijack up next\r\n- Episode advances that fail on a transient server blip are retried\r\n- Playback no longer fails when a preference write is refused\r\n- TrueHD offers its MAT carrier on Android 10–12 audio routes\r\n- Timeline heartbeats stop once a Plex server terminates the session\r\n- ExoPlayer track labels say AAC instead of mp4a.40.2\r\n- Emby scrub previews load from the server's BIF index\r\n- iOS and tvOS keep HDR and Dolby Vision when the video is zoomed\r\n- tvOS schedules frames with more presentation lead\r\n\r\n## Subtitles\r"
-        },
-        {
-          "version": "2.13.0",
-          "date": "2026-08-10T08:31:27Z",
-          "size": 47201426,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.13.0/plezy-ios.ipa",
-          "localizedDescription": "## New features\r\n\r\n- Emby joins Plex and Jellyfin as a first-class backend: same onboarding, browsing, search, watch state and downloads\r\n- TrueHD audio is packed into a MAT/IEC 61937 carrier and bitstreams to the receiver\r\n- Android Automotive: the app reads the vehicle's driver-distraction state, scales the whole interface (adjustable in Appearance), keeps music playing while parked but silences it while driving, and never starts video in a moving car\r\n- Every tracker sign-in dialog (Trakt, Simkl, MDBList, MAL, AniList) shows a QR code and a copyable link, and fits on TV screens\r\n- MDBList syncs watched history, scrobbles and ratings\r\n- Linux renders video on a native Wayland plane, which carries HDR (PQ/HLG on BT.2020) instead of the 8-bit sRGB texture path\r\n- Android TV refreshes the Watch Next row in the background without the app open\r\n- tvOS Top Shelf fetches Continue Watching live and shows poster art\r\n- The player and TV home show a clock in the system's 12/24-hour format\r\n- Library context menus gain a watchlist toggle\r\n- Appearance gains a toggle to hide the Explore tab\r\n- Text subtitles can be anchored to the bottom of the screen, in the black bars under widescreen video\r\n- Android downloads can follow the app onto adoptable storage\r\n- Playback Buffer offers Auto, Large and Extra Large read-ahead tiers instead of a fixed 50 seconds\r\n\r\n## Playback\r\n\r\n- Plex transcodes open at the resume position instead of buffering forever\r"
         }
       ]
     }
