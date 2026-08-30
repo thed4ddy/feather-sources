@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "2.18.0",
+          "date": "2026-08-30T08:39:19Z",
+          "size": 48705828,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.18.0/plezy-ios.ipa",
+          "localizedDescription": "## New features\n\n- Search the Live TV guide for channels and programs\n- Music sessions restore paused on launch\n- Account preferences section\n\n## Playback\n\n- Android playback moves to the mpv player backend\n- ExoPlayer stays selectable under Settings > Playback > Player Backend\n- 10-bit and HDR video reach the display untouched on Android\n- Software-decoded HDR stays HDR on Android\n- Stopping HDR playback no longer leaves the TV black for up to 30 seconds\n- Apple devices keep hardware decoding through a transient decode error\n- Playback starts again after a failed player handoff instead of needing a restart\n- Android direct play no longer switches to the mpv backend mid-episode\n- Android direct play honors DTS-HD MA and container aspect ratios\n- The play-next prompt shows the next episode's thumbnail\n- Play Next Countdown is configurable from 0 to 30 seconds\n- Brightness swipe, volume swipe, and pinch-to-zoom each have their own switch"
+        },
+        {
           "version": "2.17.1",
           "date": "2026-08-24T23:18:06Z",
           "size": 48613958,
@@ -43,13 +50,6 @@
           "size": 48394234,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/2.15.0/plezy-ios.ipa",
           "localizedDescription": "## New features\n\n- Multi-version movies and episodes get a split Play button\n- Player changes can be saved globally, per library, per show or movie, or not at all\n- Search results show their source server and library\n- Plex artist pages group albums by release type\n- Connected MDBList watchlists can be selected in Explore\n- iOS and tvOS system video controls add skip buttons\n\n## Playback\n\n- Video starts faster through cached metadata and parallelized setup\n- Play actions show loading feedback during fetches\n- Network prefetching removes gaps between music tracks\n- ExoPlayer seeks correctly in MKVs with late track metadata\n- Android MPV renders software-decoded Dolby Vision correctly\n- Compatible Android routes can bitstream DTS-HD MA\n- Android falls back to FFmpeg DTS decoding when passthrough is unavailable\n- Android passthrough only enables compatible audio routes\n- Plex Live TV can select and burn embedded DVB subtitles"
-        },
-        {
-          "version": "2.14.0",
-          "date": "2026-08-16T16:38:01Z",
-          "size": 48362842,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.14.0/plezy-ios.ipa",
-          "localizedDescription": "## New features\r\n\r\n- Audio and subtitle sync sliders cover ±10 seconds in 50 ms steps\r\n- The bundled ffmpeg enables the loudnorm filter for volume normalization\r\n\r\n## Playback\r\n\r\n- Plex video transcodes use fMP4 HLS, so HEVC presets stop corrupting\r\n- Plex transcodes seek in-band instead of pre-warming at the resume offset\r\n- Same-day Specials no longer hijack up next\r\n- Episode advances that fail on a transient server blip are retried\r\n- Playback no longer fails when a preference write is refused\r\n- TrueHD offers its MAT carrier on Android 10–12 audio routes\r\n- Timeline heartbeats stop once a Plex server terminates the session\r\n- ExoPlayer track labels say AAC instead of mp4a.40.2\r\n- Emby scrub previews load from the server's BIF index\r\n- iOS and tvOS keep HDR and Dolby Vision when the video is zoomed\r\n- tvOS schedules frames with more presentation lead\r\n\r\n## Subtitles\r"
         }
       ]
     }
