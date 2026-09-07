@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "2.19.0",
+          "date": "2026-09-06T21:33:31Z",
+          "size": 48894256,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.19.0/plezy-ios.ipa",
+          "localizedDescription": "## New features\n\n- Separate Off, Show button, and Automatic modes for intro and credits skipping\n- Audio, subtitle, and video-format previews on detail pages\n- Collection headers with artwork, summaries, and item counts\n- A Show Watched Indicators toggle\n- An optional Remember Brightness Level setting\n\n## Performance\n\n- Faster D-pad scrolling on Android TV and Fire TV\n- Smoother TV home navigation\n- Smoother software-decoded playback on lower-end Android GPUs\n- Faster loading of large download lists\n- Opening large logs no longer freezes or crashes the app\n- Server connections no longer stall on an unavailable IPv4 or IPv6 path\n\n## Playback\n\n- Fewer dropped frames with subtitles or audio passthrough on Android"
+        },
+        {
           "version": "2.18.0",
           "date": "2026-08-30T08:39:19Z",
           "size": 48705828,
@@ -43,13 +50,6 @@
           "size": 48388913,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/2.16.0/plezy-ios.ipa",
           "localizedDescription": "## New features\n\n- Search results can be filtered by media type\n- The sidebar is restyled as an M3 Expressive navigation rail\n\n## Playback\n\n- Playback stats show the source audio track and codec during passthrough\n- Compressed embedded MKV subtitles render on the ExoPlayer path\n- Android MPV no longer shows a blue screen for hardware-decoded HEVC on Nvidia Shield\n\n## Plex\n\n- Artwork is requested at native size instead of server-side upscales\n\n## Jellyfin & Emby\n\n- Items removed from Emby Continue Watching no longer reappear\n\n## Explore & trackers"
-        },
-        {
-          "version": "2.15.0",
-          "date": "2026-08-18T15:04:36Z",
-          "size": 48394234,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.15.0/plezy-ios.ipa",
-          "localizedDescription": "## New features\n\n- Multi-version movies and episodes get a split Play button\n- Player changes can be saved globally, per library, per show or movie, or not at all\n- Search results show their source server and library\n- Plex artist pages group albums by release type\n- Connected MDBList watchlists can be selected in Explore\n- iOS and tvOS system video controls add skip buttons\n\n## Playback\n\n- Video starts faster through cached metadata and parallelized setup\n- Play actions show loading feedback during fetches\n- Network prefetching removes gaps between music tracks\n- ExoPlayer seeks correctly in MKVs with late track metadata\n- Android MPV renders software-decoded Dolby Vision correctly\n- Compatible Android routes can bitstream DTS-HD MA\n- Android falls back to FFmpeg DTS decoding when passthrough is unavailable\n- Android passthrough only enables compatible audio routes\n- Plex Live TV can select and burn embedded DVB subtitles"
         }
       ]
     }
