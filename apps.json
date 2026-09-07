@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "2.19.1",
+          "date": "2026-09-07T20:20:16Z",
+          "size": 48887532,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.19.1/plezy-ios.ipa",
+          "localizedDescription": "## Playback\n\n- Paused playback resumes after the Android screensaver\n- AV1 plays without corrupt or black video on more Android devices\n- Steadier frame pacing on Android\n- TrueHD passthrough recovers after seeking\n\n## Jellyfin & Emby\n\n- Emby Live TV plays instead of failing to load\n- Live TV tunes when a tuner takes longer to start\n- Sessions report the platform in the client and device name\n\n## Watch Together\n\n- Relays with no port in their address connect\n\n## Desktop\n\n- Closing the app during playback ends the server session immediately"
+        },
+        {
           "version": "2.19.0",
           "date": "2026-09-06T21:33:31Z",
           "size": 48894256,
@@ -43,13 +50,6 @@
           "size": 48487264,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/2.17.0/plezy-ios.ipa",
           "localizedDescription": "## New features\n\n- Live TV recording on Jellyfin and Emby\n- Match Content Resolution on Android TV\n- FFmpeg demuxes every container on Android\n- Anchored grouping, filter, and sort menus on desktop\n- Cmd+, / Ctrl+, opens settings\n- Full details sheet from the TV detail hero\n\n## Performance\n\n- Cold start reaches the first screen ~500 ms sooner\n- D-pad browse on TV drops far fewer frames\n- Player chrome no longer rebuilds on every tick\n- Artwork nothing displays is no longer decoded\n\n## Playback\n\n- Downloaded subtitles apply instead of failing\n- Quoted mpv.conf values take effect"
-        },
-        {
-          "version": "2.16.0",
-          "date": "2026-08-19T22:26:13Z",
-          "size": 48388913,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.16.0/plezy-ios.ipa",
-          "localizedDescription": "## New features\n\n- Search results can be filtered by media type\n- The sidebar is restyled as an M3 Expressive navigation rail\n\n## Playback\n\n- Playback stats show the source audio track and codec during passthrough\n- Compressed embedded MKV subtitles render on the ExoPlayer path\n- Android MPV no longer shows a blue screen for hardware-decoded HEVC on Nvidia Shield\n\n## Plex\n\n- Artwork is requested at native size instead of server-side upscales\n\n## Jellyfin & Emby\n\n- Items removed from Emby Continue Watching no longer reappear\n\n## Explore & trackers"
         }
       ]
     }
