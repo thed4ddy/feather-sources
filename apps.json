@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "2.20.0",
+          "date": "2026-09-15T08:12:19Z",
+          "size": 48731553,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.20.0/plezy-ios.ipa",
+          "localizedDescription": "## New features\n\n- Discord shows a Listening card while music plays\n- Original quality shows the source bitrate in the quality menu\n\n## Performance\n\n- The performance overlay no longer delays the playback it measures\n- The performance overlay reports cache use instead of N/A\n- Less CPU spent on logging while browsing and playing\n\n## Playback\n\n- A failed open shows a Retry screen instead of a snackbar and an empty player\n- A file that cannot start fails in seconds instead of after thirty\n- Slow software decoding keeps playing instead of failing with a video output error\n- A wedged player recovers with Retry instead of needing a force stop\n- Back leaves the player instead of stopping responding\n- Starting another item from a shelf no longer strands a frozen player\n- Playback ends with an audio error instead of freezing when the audio device stops responding"
+        },
+        {
           "version": "2.19.1",
           "date": "2026-09-07T20:20:16Z",
           "size": 48887532,
@@ -43,13 +50,6 @@
           "size": 48613958,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/2.17.1/plezy-ios.ipa",
           "localizedDescription": "## Playback\n\n- Large MKVs on Android resume and seek immediately\n- Dolby Vision plays through the Dolby Vision decoder on Android\n- Opus, Vorbis, and FLAC tracks play instead of stalling on Android\n\n## Downloads\n\n- An unreachable downloaded file streams from the server on Android\n\n## Profiles & startup\n\n- The profile prompt no longer interrupts a companion-remote session\n\n## tvOS\n\n- Siri Remote navigation matches native tvOS pacing\n- A single flick moves exactly one item\n- Rail and hub-row scrolling glides instead of snapping"
-        },
-        {
-          "version": "2.17.0",
-          "date": "2026-08-24T05:28:09Z",
-          "size": 48487264,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.17.0/plezy-ios.ipa",
-          "localizedDescription": "## New features\n\n- Live TV recording on Jellyfin and Emby\n- Match Content Resolution on Android TV\n- FFmpeg demuxes every container on Android\n- Anchored grouping, filter, and sort menus on desktop\n- Cmd+, / Ctrl+, opens settings\n- Full details sheet from the TV detail hero\n\n## Performance\n\n- Cold start reaches the first screen ~500 ms sooner\n- D-pad browse on TV drops far fewer frames\n- Player chrome no longer rebuilds on every tick\n- Artwork nothing displays is no longer decoded\n\n## Playback\n\n- Downloaded subtitles apply instead of failing\n- Quoted mpv.conf values take effect"
         }
       ]
     }
