@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "2.21.0",
+          "date": "2026-09-22T10:03:17Z",
+          "size": 48744839,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.21.0/plezy-ios.ipa",
+          "localizedDescription": "## New features\n\n- Library filters take multiple values, exclusions and ranges\n- Downloads tabs can group, sort and filter\n- Tag suggestions in the tag editor\n- Quick Tag in the item context menu\n- Shuffle Starts at Beginning setting\n- A volume pill shows every volume change in the player\n- Cmd+R or Ctrl+R refreshes the current page on desktop\n- The Watch Together session code is large enough to read across a room\n- Flatpak bundle for Linux\n\n## Performance\n\n- Libraries in folder view open with fewer server requests\n- Collections without a backdrop skip the poster blur on Reduced visual effects\n\n## Playback\n\n- Ambient lighting turned on in settings applies when playback starts"
+        },
+        {
           "version": "2.20.0",
           "date": "2026-09-15T08:12:19Z",
           "size": 48731553,
@@ -43,13 +50,6 @@
           "size": 48705828,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/2.18.0/plezy-ios.ipa",
           "localizedDescription": "## New features\n\n- Search the Live TV guide for channels and programs\n- Music sessions restore paused on launch\n- Account preferences section\n\n## Playback\n\n- Android playback moves to the mpv player backend\n- ExoPlayer stays selectable under Settings > Playback > Player Backend\n- 10-bit and HDR video reach the display untouched on Android\n- Software-decoded HDR stays HDR on Android\n- Stopping HDR playback no longer leaves the TV black for up to 30 seconds\n- Apple devices keep hardware decoding through a transient decode error\n- Playback starts again after a failed player handoff instead of needing a restart\n- Android direct play no longer switches to the mpv backend mid-episode\n- Android direct play honors DTS-HD MA and container aspect ratios\n- The play-next prompt shows the next episode's thumbnail\n- Play Next Countdown is configurable from 0 to 30 seconds\n- Brightness swipe, volume swipe, and pinch-to-zoom each have their own switch"
-        },
-        {
-          "version": "2.17.1",
-          "date": "2026-08-24T23:18:06Z",
-          "size": 48613958,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.17.1/plezy-ios.ipa",
-          "localizedDescription": "## Playback\n\n- Large MKVs on Android resume and seek immediately\n- Dolby Vision plays through the Dolby Vision decoder on Android\n- Opus, Vorbis, and FLAC tracks play instead of stalling on Android\n\n## Downloads\n\n- An unreachable downloaded file streams from the server on Android\n\n## Profiles & startup\n\n- The profile prompt no longer interrupts a companion-remote session\n\n## tvOS\n\n- Siri Remote navigation matches native tvOS pacing\n- A single flick moves exactly one item\n- Rail and hub-row scrolling glides instead of snapping"
         }
       ]
     }
