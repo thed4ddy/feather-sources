@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "2.22.0",
+          "date": "2026-09-29T18:57:30Z",
+          "size": 48844436,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.22.0/plezy-ios.ipa",
+          "localizedDescription": "## New features\n\n- Search finds actors and directors on Plex, Jellyfin and Emby\n- Apple TV hands playback to external players such as Infuse\n- Audio Channels setting replaces Downmix to Stereo: Original, Up to 5.1 or Stereo\n- Desktop can refuse HEVC and AV1 so the server transcodes them (Settings > Playback > Video Codecs)\n- A plezy://live link tunes a Live TV channel on Android\n- Resetting all keyboard shortcuts asks for confirmation first\n\n## Playback\n\n- HDR stays on the hardware video plane on SDR displays from Android 9, so 4K HDR plays smoothly on weaker TV boxes\n- TrueHD bitstreams on Android routes that take raw TrueHD but not the MAT carrier\n- DTS decodes to multichannel instead of playing silence on TVs without DTS\n- Smoother MPV playback on Android: 1080i recordings, 24p on Fire TV, 59.94 Hz boxes and TrueHD under load\n- Audio no longer drops out on low-RAM Android boxes\n- MP4s without a ctts box (common in x265 releases) play at full speed with hardware decoding on Android\n- Dolby Vision Profile 5 renders correctly with software decoding on Android\n- A server refusing playback with HTTP 403 shows why instead of a raw error or a sign-in prompt\n- A failed start names the actual reason instead of \"loading failed\""
+        },
+        {
           "version": "2.21.0",
           "date": "2026-09-22T10:03:17Z",
           "size": 48744839,
@@ -43,13 +50,6 @@
           "size": 48894256,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/2.19.0/plezy-ios.ipa",
           "localizedDescription": "## New features\n\n- Separate Off, Show button, and Automatic modes for intro and credits skipping\n- Audio, subtitle, and video-format previews on detail pages\n- Collection headers with artwork, summaries, and item counts\n- A Show Watched Indicators toggle\n- An optional Remember Brightness Level setting\n\n## Performance\n\n- Faster D-pad scrolling on Android TV and Fire TV\n- Smoother TV home navigation\n- Smoother software-decoded playback on lower-end Android GPUs\n- Faster loading of large download lists\n- Opening large logs no longer freezes or crashes the app\n- Server connections no longer stall on an unavailable IPv4 or IPv6 path\n\n## Playback\n\n- Fewer dropped frames with subtitles or audio passthrough on Android"
-        },
-        {
-          "version": "2.18.0",
-          "date": "2026-08-30T08:39:19Z",
-          "size": 48705828,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.18.0/plezy-ios.ipa",
-          "localizedDescription": "## New features\n\n- Search the Live TV guide for channels and programs\n- Music sessions restore paused on launch\n- Account preferences section\n\n## Playback\n\n- Android playback moves to the mpv player backend\n- ExoPlayer stays selectable under Settings > Playback > Player Backend\n- 10-bit and HDR video reach the display untouched on Android\n- Software-decoded HDR stays HDR on Android\n- Stopping HDR playback no longer leaves the TV black for up to 30 seconds\n- Apple devices keep hardware decoding through a transient decode error\n- Playback starts again after a failed player handoff instead of needing a restart\n- Android direct play no longer switches to the mpv backend mid-episode\n- Android direct play honors DTS-HD MA and container aspect ratios\n- The play-next prompt shows the next episode's thumbnail\n- Play Next Countdown is configurable from 0 to 30 seconds\n- Brightness swipe, volume swipe, and pinch-to-zoom each have their own switch"
         }
       ]
     }
