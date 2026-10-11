@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "2.23.0",
+          "date": "2026-10-11T20:33:23Z",
+          "size": 48919623,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.23.0/plezy-ios.ipa",
+          "localizedDescription": "## New features\n\n- Downloads group movies and shows by collection: a Collections grouping in the Movies and TV Shows tabs opens an offline collection screen\n- Retry failed downloads in bulk from the Downloads app bar, or with Retry all on a show, season or album\n- File Info opens from the player settings sheet for the playing item\n- Disable Dolby Vision (Settings > Video Playback) plays the file's HDR10 or HLG layer instead, on Android MPV and Apple TV\n- Subtitle Position goes up to 150 on MPV, so subtitles can move down into the black bars\n- The Android MPV performance overlay shows the Dolby Vision source profile and decode path\n\n## Playback\n\n- Plex movies split across several files play as one item, including from downloads and in external players\n- Resuming over a slow connection no longer fails after 30 seconds while the stream is still loading\n- Xvid and MPEG-2 video play on Android MPV instead of failing to start or playing audio only\n- The audio track picker tells DTS-HD MA, DTS-HD HRA, DTS:X and other DTS variants apart from their DTS core\n- Display matching on Android MPV finds the frame rate of MKV files that do not declare one\n- Turning Normalize Loudness on or off, changing speed or picking the stereo limit with passthrough no longer loses audio or freezes playback on Android TV\n- Streams no longer stall at start on networks whose DNS never answers IPv6 lookups\n- Resuming AV1 on Android hands the hardware decoder complete frames, fixing a stall on Fire TV\n- \"Ends at\" stays current while playback is paused"
+        },
+        {
           "version": "2.22.0",
           "date": "2026-09-29T18:57:30Z",
           "size": 48844436,
@@ -43,13 +50,6 @@
           "size": 48887532,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/2.19.1/plezy-ios.ipa",
           "localizedDescription": "## Playback\n\n- Paused playback resumes after the Android screensaver\n- AV1 plays without corrupt or black video on more Android devices\n- Steadier frame pacing on Android\n- TrueHD passthrough recovers after seeking\n\n## Jellyfin & Emby\n\n- Emby Live TV plays instead of failing to load\n- Live TV tunes when a tuner takes longer to start\n- Sessions report the platform in the client and device name\n\n## Watch Together\n\n- Relays with no port in their address connect\n\n## Desktop\n\n- Closing the app during playback ends the server session immediately"
-        },
-        {
-          "version": "2.19.0",
-          "date": "2026-09-06T21:33:31Z",
-          "size": 48894256,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.19.0/plezy-ios.ipa",
-          "localizedDescription": "## New features\n\n- Separate Off, Show button, and Automatic modes for intro and credits skipping\n- Audio, subtitle, and video-format previews on detail pages\n- Collection headers with artwork, summaries, and item counts\n- A Show Watched Indicators toggle\n- An optional Remember Brightness Level setting\n\n## Performance\n\n- Faster D-pad scrolling on Android TV and Fire TV\n- Smoother TV home navigation\n- Smoother software-decoded playback on lower-end Android GPUs\n- Faster loading of large download lists\n- Opening large logs no longer freezes or crashes the app\n- Server connections no longer stall on an unavailable IPv4 or IPv6 path\n\n## Playback\n\n- Fewer dropped frames with subtitles or audio passthrough on Android"
         }
       ]
     }
