@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "2.24.0",
+          "date": "2026-10-21T17:38:15Z",
+          "size": 57060145,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.24.0/plezy-ios.ipa",
+          "localizedDescription": "## New features\n\n- Detail pages show scores from connected Trakt, Simkl, MyAnimeList, AniList and MDBList accounts\n- Person pages show the biography, birth and death dates, and birthplace\n- Deinterlacing has a Film mode for telecined DVDs on MPV\n- Dolby Vision plays on macOS\n\n## Supporter\n\n- A one-time Supporter purchase on the App Store and Google Play unlocks themes and app icons\n- Five colour themes: Ember, Glacier, Forest, Plum and Paper\n- Custom themes with your own colours\n- 23 alternate app icons on iOS, tvOS and Android\n- Free in the Microsoft Store, Amazon Appstore, macOS and Linux versions\n- Not offered in the GitHub Android, iOS and Windows builds\n\n## Watch Together\n\n- Rooms run on Open Watch Party and work with other Open Watch Party apps\n- Rooms work across servers: each person plays their own copy from their Plex, Jellyfin or Emby servers"
+        },
+        {
           "version": "2.23.0",
           "date": "2026-10-11T20:33:23Z",
           "size": 48919623,
@@ -43,13 +50,6 @@
           "size": 48731553,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/2.20.0/plezy-ios.ipa",
           "localizedDescription": "## New features\n\n- Discord shows a Listening card while music plays\n- Original quality shows the source bitrate in the quality menu\n\n## Performance\n\n- The performance overlay no longer delays the playback it measures\n- The performance overlay reports cache use instead of N/A\n- Less CPU spent on logging while browsing and playing\n\n## Playback\n\n- A failed open shows a Retry screen instead of a snackbar and an empty player\n- A file that cannot start fails in seconds instead of after thirty\n- Slow software decoding keeps playing instead of failing with a video output error\n- A wedged player recovers with Retry instead of needing a force stop\n- Back leaves the player instead of stopping responding\n- Starting another item from a shelf no longer strands a frozen player\n- Playback ends with an audio error instead of freezing when the audio device stops responding"
-        },
-        {
-          "version": "2.19.1",
-          "date": "2026-09-07T20:20:16Z",
-          "size": 48887532,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.19.1/plezy-ios.ipa",
-          "localizedDescription": "## Playback\n\n- Paused playback resumes after the Android screensaver\n- AV1 plays without corrupt or black video on more Android devices\n- Steadier frame pacing on Android\n- TrueHD passthrough recovers after seeking\n\n## Jellyfin & Emby\n\n- Emby Live TV plays instead of failing to load\n- Live TV tunes when a tuner takes longer to start\n- Sessions report the platform in the client and device name\n\n## Watch Together\n\n- Relays with no port in their address connect\n\n## Desktop\n\n- Closing the app during playback ends the server session immediately"
         }
       ]
     }
