@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "2.25.0",
+          "date": "2026-10-27T09:04:18Z",
+          "size": 57597986,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.25.0/plezy-ios.ipa",
+          "localizedDescription": "## New features\n\n- Skip Intro and Skip Credits recognise chapters with generic or non-English names\n- Add to… playlists and collections on Jellyfin and Emby\n- Scan Library Files on Jellyfin and Emby\n- New airings show a NEW badge in the Live TV guide\n- Explore can be the Startup Section\n- The Performance Overlay shows Direct Play or Transcoding\n\n## plezy:// links\n\n- Links can open Plezy in a chosen profile\n- Links play a movie or show by TMDB, TVDB, IMDb or Plex ID from any server\n- A show link plays the next episode, or shuffles the show\n- Show link on movies, shows, episodes and profiles gives the link and a QR code\n- Live TV links work on Apple TV\n- A link wakes Google TV from the screensaver\n- Outplayer, Infuse and VLC on iOS return to Plezy with where playback stopped\n\n## Watch Together"
+        },
+        {
           "version": "2.24.0",
           "date": "2026-10-21T17:38:15Z",
           "size": 57060145,
@@ -43,13 +50,6 @@
           "size": 48744839,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/2.21.0/plezy-ios.ipa",
           "localizedDescription": "## New features\n\n- Library filters take multiple values, exclusions and ranges\n- Downloads tabs can group, sort and filter\n- Tag suggestions in the tag editor\n- Quick Tag in the item context menu\n- Shuffle Starts at Beginning setting\n- A volume pill shows every volume change in the player\n- Cmd+R or Ctrl+R refreshes the current page on desktop\n- The Watch Together session code is large enough to read across a room\n- Flatpak bundle for Linux\n\n## Performance\n\n- Libraries in folder view open with fewer server requests\n- Collections without a backdrop skip the poster blur on Reduced visual effects\n\n## Playback\n\n- Ambient lighting turned on in settings applies when playback starts"
-        },
-        {
-          "version": "2.20.0",
-          "date": "2026-09-15T08:12:19Z",
-          "size": 48731553,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.20.0/plezy-ios.ipa",
-          "localizedDescription": "## New features\n\n- Discord shows a Listening card while music plays\n- Original quality shows the source bitrate in the quality menu\n\n## Performance\n\n- The performance overlay no longer delays the playback it measures\n- The performance overlay reports cache use instead of N/A\n- Less CPU spent on logging while browsing and playing\n\n## Playback\n\n- A failed open shows a Retry screen instead of a snackbar and an empty player\n- A file that cannot start fails in seconds instead of after thirty\n- Slow software decoding keeps playing instead of failing with a video output error\n- A wedged player recovers with Retry instead of needing a force stop\n- Back leaves the player instead of stopping responding\n- Starting another item from a shelf no longer strands a frozen player\n- Playback ends with an audio error instead of freezing when the audio device stops responding"
         }
       ]
     }
