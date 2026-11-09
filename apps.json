@@ -17,6 +17,13 @@
       "tintColor": "#6C63FF",
       "versions": [
         {
+          "version": "2.26.0",
+          "date": "2026-11-09T01:46:46Z",
+          "size": 58206229,
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.26.0/plezy-ios.ipa",
+          "localizedDescription": "## New features\n\n- Shuffle a whole movie or TV library\n- A Genres tab in movie and show libraries\n- Continue Watching asks which copy to play when a title is in more than one library or server\n- Zoom can be remembered per show, per library or everywhere\n- Shader presets and Ambient lighting on iOS, Apple TV and macOS\n- Match Refresh Rate on macOS\n- A Linux AppImage, updatable with zsync\n\n## Performance\n\n- Desktop downloads run at full network speed\n- Lower CPU use for E-AC-3 passthrough on Android MPV\n- Lower CPU use on 32-bit Android devices\n- Faster audio decoding on ARM devices\n- Animated ASS subtitles use less CPU\n- Memory no longer grows with every seek in videos with subtitles\n- A video whose audio ends early no longer drains power on Android MPV\n- Resizing the window reloads posters far less often"
+        },
+        {
           "version": "2.25.0",
           "date": "2026-10-27T09:04:18Z",
           "size": 57597986,
@@ -43,13 +50,6 @@
           "size": 48844436,
           "downloadURL": "https://github.com/edde746/plezy/releases/download/2.22.0/plezy-ios.ipa",
           "localizedDescription": "## New features\n\n- Search finds actors and directors on Plex, Jellyfin and Emby\n- Apple TV hands playback to external players such as Infuse\n- Audio Channels setting replaces Downmix to Stereo: Original, Up to 5.1 or Stereo\n- Desktop can refuse HEVC and AV1 so the server transcodes them (Settings > Playback > Video Codecs)\n- A plezy://live link tunes a Live TV channel on Android\n- Resetting all keyboard shortcuts asks for confirmation first\n\n## Playback\n\n- HDR stays on the hardware video plane on SDR displays from Android 9, so 4K HDR plays smoothly on weaker TV boxes\n- TrueHD bitstreams on Android routes that take raw TrueHD but not the MAT carrier\n- DTS decodes to multichannel instead of playing silence on TVs without DTS\n- Smoother MPV playback on Android: 1080i recordings, 24p on Fire TV, 59.94 Hz boxes and TrueHD under load\n- Audio no longer drops out on low-RAM Android boxes\n- MP4s without a ctts box (common in x265 releases) play at full speed with hardware decoding on Android\n- Dolby Vision Profile 5 renders correctly with software decoding on Android\n- A server refusing playback with HTTP 403 shows why instead of a raw error or a sign-in prompt\n- A failed start names the actual reason instead of \"loading failed\""
-        },
-        {
-          "version": "2.21.0",
-          "date": "2026-09-22T10:03:17Z",
-          "size": 48744839,
-          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.21.0/plezy-ios.ipa",
-          "localizedDescription": "## New features\n\n- Library filters take multiple values, exclusions and ranges\n- Downloads tabs can group, sort and filter\n- Tag suggestions in the tag editor\n- Quick Tag in the item context menu\n- Shuffle Starts at Beginning setting\n- A volume pill shows every volume change in the player\n- Cmd+R or Ctrl+R refreshes the current page on desktop\n- The Watch Together session code is large enough to read across a room\n- Flatpak bundle for Linux\n\n## Performance\n\n- Libraries in folder view open with fewer server requests\n- Collections without a backdrop skip the poster blur on Reduced visual effects\n\n## Playback\n\n- Ambient lighting turned on in settings applies when playback starts"
         }
       ]
     }
